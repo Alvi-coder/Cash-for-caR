@@ -1,0 +1,637 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+    background-image: url(../img/bbb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+header{
+    
+}
+.logo{
+      width: 50%;
+    margin: 0px auto;
+    display: block;
+    margin-top: 40px;
+   
+}
+}
+.abt-logo{
+    
+}
+.abt-nav {
+    
+}
+.abt-nav ul {
+        margin: 50px 0px;
+}
+.abt-nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+ .abt-nav ul li a {
+color: white;
+    margin: 0px 27px;
+    font-size: 17px;
+     text-decoration: none;
+}
+.for-box{
+    
+}
+.abt-box{
+    
+}
+
+{
+      color: white;
+    width: 95%;
+    background-color: #80808038;
+    padding: 12px 0px;
+    text-align: center;
+    margin-left: 62px;
+    font-size: 53px;
+    margin-top: 100px;
+    
+}
+.back-box{
+margin-left: 60px;
+    background-color: #80808078;
+    color: white;
+    width: 97%;
+    font-size: 51px;
+    padding: 0px 23px;
+    padding-bottom: 5px;
+}
+.abt-box p {
+       font-size: 14px;
+    margin-left: 60px;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 80px;
+}
+.line{
+        border-bottom: 2px solid white;
+    display: block;
+    width: 4%;
+    margin-left: 60px;
+}
+
+.btn-con{
+          background: transparent;
+    color: white;
+    padding: 5px 77px;
+    border: 1px solid white;
+    font-size: 24px;
+    margin-left: 60px;
+    margin-top: 25px;
+    margin-bottom: 120px; 
+}
+.btn-con:hover{
+    color: cornflowerblue;
+    transition: 0.8s;
+}
+.cool{
+    
+}
+.second-car{
+    background-color: #f6f6f6;
+   padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+
+
+.carrr {
+    
+}
+.carrr h2{
+    font-size: 40px;
+font-weight: bolder;
+}
+.carrr span{
+    border-bottom: 2px solid gray;
+margin: 0px auto;
+   
+    
+
+display: block;
+width: 5%;
+margin-left: 0px;
+margin-bottom: 45px;
+margin-top: 15px;
+}
+.carrr p{
+       font-size: 17px;
+    color: #a5a5a5;
+    width: 90%;
+}
+.eer{
+   
+}
+.first-car{
+     
+}
+.img-fluid{
+    max-width: 100%;
+height: auto;
+margin: 6px -99px;
+}
+.abt-another{
+background-color: #28282e;
+
+}
+
+
+.another-onee h2 {
+    color: white;
+margin-top: 100px;
+font-weight: bolder;
+font-size: 43px;
+}
+.another-onee span {
+border-bottom: 2px solid white;
+margin: 0px auto;
+display: block;
+width: 5%;
+margin-left: 0px;
+margin-bottom: 45px;
+margin-top: 15px;
+}
+.another-onee p{
+    color: white;
+font-size: 17px;
+width: 88%;
+}
+.btn-read{
+    background: transparent;
+padding: 3px 20px;
+font-size: 15px;
+color: white;
+border: 1px solid white;
+font-family: revert;
+    margin-bottom: 35px;
+}
+
+.im-fluid{
+    width: 100%;
+margin-top: 30%;
+margin-left: -7%;
+}
+.footer{
+   background-color: #ef4035;
+    text-align: center;
+    padding: 30px 0px;
+}
+.footer p{
+    font-size: 23px;
+color: white;
+}
+
+
+
+/*media quary*/
+
+@media(min-width: 320px) and (max-width:576px){
+    .btn-con{
+            padding: 1px 20px;
+    font-size: 8px;
+    margin-left: 0px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    }
+    .abt-box p {
+    font-size: 8px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    width: 40%;
+    }
+    .back-box{
+          margin-left: 0px;
+width: 36%;
+font-size: 12px;
+padding: 0px 0px;
+        margin-top: 20px;
+    }
+    .line{
+        margin-left: 0px;
+margin-top: 12px;
+    }
+    .abt-nav nav {
+margin: -47px 0px;
+    }
+    .abt-nav ul li a{
+font-size: 6px;
+    margin: 0px 0px;
+    }
+    .logo{
+     margin-top: 10px;
+margin-left: 0px;
+width: 69%;
+display: block;
+    }
+    .abt-logo{
+    width: 50%;
+    }
+    .abt-nav{
+width: 50%;
+    }
+    /*welcomeeeeeeeeeeeeeeeee*/
+    .second-car{
+padding: 0px;
+padding-top: 40px;
+padding-bottom: 25px;
+    }
+    .carrr {
+    width: 40%;
+}
+    .carrr h2{
+        font-size: 12px;
+    }
+    .carrr span{
+margin-bottom: 0px;
+margin-top: 0px;
+    }
+    .carrr p{
+        font-size: 8px;
+
+    }
+    .img-fluid{
+        margin: 0px auto;
+    }
+    .first-car{
+        width: 60%;
+    }
+   /*anotherrrrrrr*/
+    .another-onee h2{
+        font-size: 12px;
+margin-top: 20px;
+    }
+    .another-onee span{
+        margin-top: 0px;
+margin-bottom: 0px;
+width: 3%;
+    }
+    .another-onee p{
+        width: 100%;
+font-size: 7px;
+    }
+    .btn-read{
+        font-size: 8px;
+padding: 2px 10px;
+        margin-bottom: 20px;
+    }
+    .another-onee{
+width: 50%;
+    }
+    .another-car{
+        width: 50%;
+    }
+  .im-fluid {
+    width: 100%;
+    margin-top: 40%;
+    margin-left: -7%;
+}
+    /*footerrrrr*/
+    .footer p{
+        font-size: 8px;
+    }
+}
+@media (min-width: 576.01px) and (max-width: 768px){
+         .btn-con{
+            padding: 4px 30px;
+    font-size: 11px;
+    margin-left: 0px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+ 
+    }
+    .abt-box p {
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    width: 43%;
+    }
+    .back-box{
+       margin-left: 0px;
+width: 50%;
+font-size: 25px;
+padding: 6px 10px;
+margin-top: 20px;
+    }
+    .line{
+       margin-left: 0px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    }
+    .abt-nav nav {
+margin: -47px 0px;
+    }
+    .abt-nav ul li a{
+font-size: 11px;
+    margin: 0px 5px;
+    }
+    .logo{
+    margin-top: 10px;
+    margin-left: 0px;
+    width: 70%;
+    display: block;
+    }
+    .abt-logo{
+    width: 50%;
+    }
+    .abt-nav{
+width: 50%;
+    }
+    /*welcomeeee*/
+     .second-car{
+padding: 0px;
+padding-top: 40px;
+padding-bottom: 25px;
+    }
+    .carrr {
+    width: 40%;
+}
+    .carrr h2{
+        font-size: 17px;
+    }
+    .carrr span{
+margin-bottom: 0px;
+margin-top: 0px;
+    }
+    .carrr p{
+       font-size: 10px;
+    }
+    .img-fluid{
+        margin: 0px auto;
+    }
+    .first-car{
+        width: 60%;
+    }
+     /*anotherrrrrrr*/
+    .another-onee h2{font-size: 17px;
+margin-top: 20px;}
+     .another-onee span{
+        margin-top: 0px;
+margin-bottom: 0px;
+width: 3%;
+    }
+    .another-onee p{
+       width: 99%;
+font-size: 10px;
+    }
+    .btn-read{
+       font-size: 10px;
+padding: 4px 13px;
+        margin-bottom: 20px;
+    }
+    .another-onee{
+width: 50%;
+    }
+    .another-car{
+        width: 50%;
+    }
+  .im-fluid {
+   width: 100%;
+margin-top: 30%;
+margin-left: -15%;
+}
+    /*footerrrrr*/
+    .footer p{
+        font-size: 10px;
+    }
+}
+@media(min-width: 768.01px) and (max-width: 992px){
+     .btn-con{
+        padding: 5px 32px;
+    font-size: 13px;
+    margin-left: 0px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+ 
+    }
+    .abt-box p {
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    width: 90%;
+    }
+    .back-box{
+      margin-left: 0px;
+width: 95%;
+font-size: 31px;
+padding: 6px 10px;
+margin-top: 20px;
+    }
+    .line{
+       margin-left: 0px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    }
+    .abt-nav nav {
+margin: -47px 0px;
+    }
+    .abt-nav ul{
+  margin-top: 19%;
+    }
+    .abt-nav ul li{
+        
+    } 
+    .abt-nav ul li a{
+font-size: 13px;
+    margin: 0px 5px;
+    }
+    .logo{
+    margin-top: 10px;
+    margin-left: 0px;
+    width: 70%;
+    display: block;
+    }
+    .abt-logo{
+    width: 50%;
+    }
+    .abt-nav{
+width: 50%;
+    }
+    /*welcomeeeee*/
+     .second-car{
+padding: 0px;
+padding-top: 40px;
+padding-bottom: 25px;
+    }
+    .carrr {
+    width: 40%;
+}
+    .carrr h2{
+        font-size: 26px;
+    }
+    .carrr span{
+margin-bottom: 25px;
+margin-top: 15px;
+    }
+    .carrr p{
+       font-size: 13px;
+    }
+    .img-fluid{
+        margin: 0px auto;
+    }
+    .first-car{
+        width: 60%;
+    }
+     /*anotherrrrrrr*/
+    .another-onee h2{
+        font-size: 26px;
+margin-top: 25%;
+    }
+    .another-onee span{
+        margin-top: 0px;
+margin-bottom: 0px;
+width: 3%;
+    }
+    .another-onee p{
+      width: 100%;
+font-size: 14px;
+    }
+    .btn-read{
+     font-size: 12px;
+padding: 5px 20px;
+margin-bottom: 30px;
+    }
+    .another-onee{
+width: 50%;
+    }
+    .another-car{
+        width: 50%;
+    }
+  .im-fluid {
+  width: 100%;
+margin-top: 30%;
+margin-left: 0%;
+}
+    /*footerrrrr*/
+    .footer p{
+        font-size: 12px;
+    }
+}
+@media (min-width: 992.01px) and (max-width: 1200px){
+    .btn-con{
+           padding: 7px 40px;
+    font-size: 16px;
+    margin-left: 0px;
+    margin-bottom: 65px;
+    margin-top: 0px;
+ 
+    }
+    .abt-box p {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    width: 90%;
+    }
+    .back-box{
+           margin-left: 0px;
+    width: 91%;
+    font-size: 42px;
+    padding: 6px 10px;
+    margin-top: 65px;
+    }
+    .line{
+         margin-left: 0px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    }
+    .abt-nav nav {
+margin: -47px 0px;
+    }
+    .abt-nav ul{
+  margin: 68px 0px;
+    }
+    .abt-nav ul li{
+        
+    } 
+    .abt-nav ul li a{
+font-size: 13px;
+    margin: 0px 5px;
+    }
+    .logo{
+    margin-top: 10px;
+    margin-left: 0px;
+    width: 70%;
+    display: block;
+    }
+    .abt-logo{
+    width: 50%;
+    }
+    .abt-nav{
+width: 50%;
+    }
+      /*welcomeeeee*/
+     .second-car{
+padding: 0px;
+padding-top: 40px;
+padding-bottom: 25px;
+    }
+    .carrr {
+    width: 40%;
+}
+    .carrr h2{
+        font-size: 35px;
+    }
+    .carrr span{
+margin-bottom: 25px;
+margin-top: 15px;
+    }
+    .carrr p{
+     font-size: 15px;
+    }
+    .img-fluid{
+        margin: 0px auto;
+    }
+    .first-car{
+        width: 60%;
+    }
+    .another-onee h2{
+       font-size: 35px;
+    }
+    .another-onee span{ 
+    margin-bottom: 35px;
+    }
+    .another-onee p{font-size: 19px;
+margin-top: 0px;
+width: 93%;}
+    .btn-read{
+       font-size: 18px;
+padding: 5px 25px;
+margin-bottom: 30px;
+    }
+    .im-fluid{
+       width: 100%;
+margin-top: 35%;
+margin-left: -10%;
+    }
+    /*footerrrrr*/
+    .footer p{
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
